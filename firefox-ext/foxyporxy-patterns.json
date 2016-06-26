@@ -1,0 +1,40 @@
+{
+    "patterns": [
+        {
+            "enabled": true,
+            "name": "Google",
+            "pattern": "^https?://(.*\\.)?google\\.(?:com|com\\.hk|com\\.sg)(/.*)?$",
+            "isRegEx": true,
+            "caseSensitive": false,
+            "blackList": false,
+            "multiLine": false
+        },
+        {
+            "enabled": true,
+            "name": "Google Misc",
+            "pattern": "^https?://.*\\.(?:gstatic|googleapis)\\.com/.*$",
+            "isRegEx": true,
+            "caseSensitive": false,
+            "blackList": false,
+            "multiLine": false
+        },
+        {
+            "enabled": true,
+            "name": "GitHub Gist",
+            "pattern": "^https?://gist\\.github\\.com/.*$",
+            "isRegEx": true,
+            "caseSensitive": false,
+            "blackList": false,
+            "multiLine": false
+        },
+        {
+            "enabled": true,
+            "name": "Go Lang",
+            "pattern": "^https?://golang\\.org/.*$",
+            "isRegEx": true,
+            "caseSensitive": false,
+            "blackList": false,
+            "multiLine": false
+        }
+    ]
+}
